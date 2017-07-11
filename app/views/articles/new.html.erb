@@ -1,0 +1,7 @@
+<h1>New Article</h1>
+
+<%= form_for :article, url: articles_path do |f| %>
+ <h1>Nouvel article </h1>
+ <%= render 'form' %>
+<%= link_to 'Retour', articles_path %> 
+<%end %>
